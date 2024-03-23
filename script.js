@@ -80,6 +80,7 @@
 // );
 // console.log(suminitialValue)
 
+/*
 
 // ------------------(16/03/24)---------------------
 // ----------JS Array Methods (Full)----------------
@@ -113,5 +114,69 @@ console.log(`less than 100:`,lessThan100);
 // 7. From string array remove the last letter and add word 'str' before each of them.
 const removeAdd = stringArray.map( i => i.slice(0,-1) + 'str');
 console.log(`Remove & Add:`,removeAdd);
+
+
+
+*/
+
+
+/*----------------- boject----------------------- 
+
+
+const me ={ 
+    Name:'Khairul', 
+    Roll: '07' ,  
+    result:{
+        bangle:50,
+        english:50,
+        math:48,
+        ict:40 , 
+        }
+};
+me.result.english= 60;
+
+let total = me.result.bangle + me.result.english + me.result.math + me.result.ict ;
+
+console.log(me.Name,me.Roll,total)
+
+*/
+
+// let val = 0;
+// function sum(){
+//     val= val+1
+//     document.querySelector(`.ko`).innerHTML= val;
+// }
+// document.querySelector (`button`).addEventListener(`click`,sum);
+
+
+// let val = 0;
+// function sum(){
+//     val=val+1
+//     document.querySelector(`.ko`).innerHTML=val;
+// }
+// document.querySelector(`button`).addEventListener(`click`,sum);
+
+
+// let val = 0;
+// function sum(){
+//     val = val+1;
+//     document.querySelector(`.ko`).innerHTML=val;
+// }
+// document.querySelector(`button`).addEventListener(`click`,sum);
+
+let val = 0;
+function sum(){
+    val =val+1;
+    document.querySelector(`.cart-count`).innerHTML= val;
+}
+document.querySelector(`button`).addEventListener(`click`,sum);
+
+
+
+
+
+
+
+
 
 
